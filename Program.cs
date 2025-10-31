@@ -11,8 +11,7 @@ builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 builder.Services.AddDbContext<ProductDbContext>(opt=>
 opt.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-builder.Services.AddHttpClient();
-builder.Services.AddScoped<ExternalApiService>();
+builder.Services.AddHttpClient<ExternalApiService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
