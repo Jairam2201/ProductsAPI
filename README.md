@@ -9,7 +9,7 @@ This project demonstrates strong backend design, clean architecture, and RESTful
 
 ### 🧩 Product Management (CRUD)
 - Add, view, edit, and delete product records.
-- Supports up to **12 product properties**, including name, category, price, stock, brand, etc.
+- Supports up to **12 product properties**, including name, category, price, color, brand, etc.
 - Implements **RESTful API standards** with proper status codes.
 
 ### 🌐 Third-Party API Integration
@@ -39,6 +39,3 @@ This project demonstrates strong backend design, clean architecture, and RESTful
 | Version Control | Git + GitHub |
 
 ---
-
-## 🧰 Project Structure
-
